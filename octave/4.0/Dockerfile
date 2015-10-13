@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -y \
     software-properties-common
 RUN add-apt-repository ppa:octave/stable
 RUN apt-get update && apt-get install -y \
-    octave
+    liboctave-dev
+
+RUN echo 'PS1(">> ")' > /.octaverc
 
 CMD ["octave", "--no-gui"]
