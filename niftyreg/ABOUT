@@ -1,0 +1,10 @@
+
+#====================================================================#
+| Nifty Reg Docker Container                                         |
+#====================================================================#
+
+Docker container for Nifty image registration.
+See http://sourceforge.net/projects/niftyreg/
+
+Docker image maintained by Ashley Gillman.
+
