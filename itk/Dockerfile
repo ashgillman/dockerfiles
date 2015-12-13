@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
     libvtk6-dev \
     make
 
-# Load SMILI
+# Load ITK
 ENV ITK_VER v4.8.1
 RUN mkdir /itk \
     && curl -L https://github.com/InsightSoftwareConsortium/ITK/archive/${ITK_VER}.tar.gz \
